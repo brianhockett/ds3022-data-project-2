@@ -152,7 +152,7 @@ def submit(uvaid, phrase, platform):
         # Send submission message, with computing id, the complete phrase, and the platform
         submission_response = sqs.send_message(
             QueueUrl = submission_url,
-            MessageBody = phrase, # Ask about this
+            MessageBody = "Brian Hockett Submission",
             MessageAttributes = {
                 'uvaid' : {
                     'DataType' : 'String',
