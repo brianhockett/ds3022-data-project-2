@@ -1,4 +1,0 @@
-apache-airflow
-requests
-prefect
-boto3

@@ -6,7 +6,7 @@ import json
 import time
 
 @dag(
-  'dp2-dag-5',
+  'dp2-dag-6',
   start_date = None,
   schedule = None,
   catchup = False,
